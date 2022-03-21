@@ -83,3 +83,23 @@ body{
 .product:hover .product-img-1b{
     display: block;
 }
+
+.brand{
+    font-size: 8px;
+    margin-top: 5px;
+}
+
+.style{
+    font-size: 10px;
+}
+
+.prize{
+    font-size: 9px;
+    color:rgb(235, 0, 55);
+}
+
+.deleted{
+    font-size: 9px;
+    text-decoration: line-through;
+   }
+
