@@ -7,6 +7,79 @@
 
 /* Common */
 .container{
-    max-width: 1000px;
+    max-width: 800px;
     margin: auto;
+    margin-top: 20px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Main */
+.col{
+    float: left;
+    width: calc( 100% / 3 - 8px);
+    margin: 0 4px;
+}
+
+.product{
+    position: relative;
+}
+
+.product img{
+    width: 100%;
+    display: block;
+}
+
+.discount{
+    color: white;
+    font-size: 10px;
+    padding: 4px;
+    position: absolute;
+    bottom: 15px;
+    background-color: rgb(235, 0, 55);
+    left: 0;
+}
+
+.label{
+    color: white;
+    font-size: 10px;
+    padding: 4px;
+    position: absolute;
+    bottom: 15px;
+    background-color: rgb(59, 140, 97);
+    left: 40px;
+}
+
+.wishlist{
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background-color: white;
+    padding: 5px 6px;
+    font-size: 10px;  
+}
+
+.product:hover .wishlist{
+    display: block;
+}
+
+.product .product-img-1b{
+    display: none;
+}
+
+.product:hover .product-img-1{
+    display: none;
+}
+
+.product:hover .product-img-1b{
+    display: block;
 }
