@@ -58,6 +58,16 @@ body{
     left: 40px;
 }
 
+.label-6{
+    color: white;
+    font-size: 10px;
+    padding: 4px;
+    position: absolute;
+    bottom: 15px;
+    background-color:rgb(59, 140, 97);
+    left: 0;
+}
+
 .wishlist{
     display: none;
     position: absolute;
@@ -72,15 +82,15 @@ body{
     display: block;
 }
 
-.product .product-img-1b{
+.product .product-img-nb{
     display: none;
 }
 
-.product:hover .product-img-1{
+.product:hover .product-img-n{
     display: none;
 }
 
-.product:hover .product-img-1b{
+.product:hover .product-img-nb{
     display: block;
 }
 
@@ -96,10 +106,12 @@ body{
 .prize{
     font-size: 9px;
     color:rgb(235, 0, 55);
+   
 }
 
 .deleted{
     font-size: 9px;
     text-decoration: line-through;
-   }
+   
+}
 
