@@ -39,32 +39,24 @@ body{
     display: block;
 }
 
-.discount{
+.discount, .label, .label-6{
     color: white;
     font-size: 10px;
     padding: 4px;
     position: absolute;
     bottom: 15px;
+}
+
+.discount{
     background-color: rgb(235, 0, 55);
     left: 0;
 }
-
 .label{
-    color: white;
-    font-size: 10px;
-    padding: 4px;
-    position: absolute;
-    bottom: 15px;
     background-color: rgb(59, 140, 97);
     left: 40px;
 }
 
 .label-6{
-    color: white;
-    font-size: 10px;
-    padding: 4px;
-    position: absolute;
-    bottom: 15px;
     background-color:rgb(59, 140, 97);
     left: 0;
 }
