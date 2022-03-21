@@ -27,6 +27,7 @@ body{
     float: left;
     width: calc( 100% / 3 - 8px);
     margin: 0 4px;
+    margin-bottom: 20px;
 }
 
 .product{
